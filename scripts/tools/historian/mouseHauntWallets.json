@@ -1,0 +1,70 @@
+[
+  {
+    "name": "Boosters Wallet",
+    "address": "0x2124b4912532f6cD235081fEA2223EB3C0Af301d"
+  },
+  {
+    "name": "Strategic Partnership Wallet",
+    "address": "0xd5c1caF32aA011D72701869C0A9D438Be1102FAC"
+  },
+  {
+    "name": "Community & Marketing Wallet",
+    "address": "0xD0d5e12eD290D8f199a7533D0b854ac5cf3adE48"
+  },
+  {
+    "name": "Private Sale Wallet",
+    "address": "0x5FEe4568C79542682C2819a87f8868AbaFA97793"
+  },
+  {
+    "name": "Public Round Wallet",
+    "address": "0x5Ab7bDb610AC2e8936be06e9d635244e6BcAA92B"
+  },
+  {
+    "name": "Liquidity Wallet",
+    "address": "0x77d16bB6e6ba12a8FD79B129D4418430f6bC8013"
+  },
+  {
+    "name": "Team and Advisors Wallet",
+    "address": "0xbcF2E39bc5a826B37A8647bD3E23Ebb540440D34"
+  },
+  {
+    "name": "Play-to-earn Wallet",
+    "address": "0xFAdB6FbA3213C0D300D918a55f7946dF7C1A3b3e"
+  },
+  {
+    "name": "Seed Wallet",
+    "address": "0xb53A11c980f6E3b4725977A69672A373954B0157"
+  },
+  {
+    "name": "Reserves/Treasury Wallet",
+    "address": "0x87c0173bA28A9e3603f7286052196d87Cf10bF1e"
+  },
+  {
+    "name": "Staking Wallet",
+    "address": "0x3c02B427c783D6699aF06C29D362a6f3640836B3"
+  },
+  {
+    "name": "Seedify Wallet",
+    "address": "0xf9439517f29E5169098c462beB6293bbf130D4Bc"
+  },
+  {
+    "name": "Multisig 07 Wallet",
+    "address": "0xe97d4AAb40420d3bDC094177A8afF91A721BA170"
+  },
+  {
+    "name": "ETH Contractors Wallet",
+    "address": "0xf34879418d07168525b9d77494b982fb52b15D5C"
+  },
+  {
+    "name": "ETH Contractors 2 Wallet",
+    "address": "0xB070301A5aB24FD74d1fd27787CE492A259B0487"
+  },
+  {
+    "name": "ETH Contractors 3 Wallet",
+    "address": "0x5Ad99DE385F22ED0ABB4a938e6f6255aebD1745b"
+  },
+  {
+    "name": "MH Operations Wallet",
+    "address": "0x4A701fa920339D484e10deA12871bc5c7C88a18f"
+  }
+]

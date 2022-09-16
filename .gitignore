@@ -1,0 +1,21 @@
+node_modules
+.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
+
+# errors
+yarn-error.log
+
+#others
+yarn.lock
+package-lock.json
+scripts/tools/historian/data/*.*
+scripts/tools/salary-splitter/data/*.*
+scripts/balanceTracker/data/*.*
+scripts/tools/stratifier/data/*.*
+vestingTargets_2022_aug_18.json

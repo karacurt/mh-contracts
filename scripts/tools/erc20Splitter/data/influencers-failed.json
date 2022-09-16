@@ -1,0 +1,97 @@
+{
+  "description": "This is the list of influencers that didn't meet the requirements. They failed to post according to the SAFT.",
+  "influencers": [
+    {
+      "Full Name": "Dmitrii Klimchenko",
+      "Email": "ceothevse@gmail.com",
+      "AllocationGranted_BUSD": 1000,
+      "amount": "533000000000000000000",
+      "TXID": "https://bscscan.com/tx/0xb7b8a9c67dbde7b4fdfb59ffc682dec7951c347d543564a09eca01b34f7df57b",
+      "address": "0xf45f34330bd4DeDAc13824e15624D97FBb430183",
+      "status": "FAILED",
+      "total_mht_received": 533000000000000000000,
+      "installments_paid": 1,
+      "92_pct_reimbursement_BUSD": 920,
+      "reimbursed_at": "21/jan/2022",
+      "reimbursed_tx_hash": "https://bscscan.com/tx/0xdc4d97cc079289646eb743da3f00a086a0bd82fc8fde0b8fff7216e1e3189f1e"
+    },
+    {
+      "Full Name": "Eduardo Gil",
+      "Email": "contact@cryptorand.com",
+      "AllocationGranted_BUSD": 3000,
+      "amount": "1600000000000000000000",
+      "TXID": "https://bscscan.com/tx/0x9ec49a745274b875937148128afad4d3323c647834f288cc79c45ba3712daa5f",
+      "address": "0x832cfD8fD4a1791b5eF5BD18a677beb7731Aa18E",
+      "status": "FAILED",
+      "total_mht_received": 1600000000000000000000,
+      "installments_paid": 1,
+      "92_pct_reimbursement_BUSD": 2760,
+      "reimbursed_at": "21/jan/2022",
+      "reimbursed_tx_hash": "https://bscscan.com/tx/0xae3d5dc6c039e7a46ec22024a90f9e743708bfc1da946fb915149734d3b34b19"
+    },
+    {
+      "Full Name": "NUMAIR Mukhtar",
+      "Email": "numairmukhtar@hotmail.com",
+      "AllocationGranted_BUSD": 2000,
+      "amount": "1067000000000000000000",
+      "TXID": "https://bscscan.com/tx/0xdf6c3b33c7e17cf6868c5d834133b6a49778ece45b2dbadde0be58725d4fea70",
+      "address": "0x5d47fF374E2AAF3963994569ab90ddAfb1a0E6E6",
+      "status": "FAILED",
+      "total_mht_received": 1067000000000000000000,
+      "installments_paid": 1,
+      "92_pct_reimbursement_BUSD": 1840,
+      "reimbursed_at": "21/jan/2022",
+      "reimbursed_tx_hash": "https://bscscan.com/tx/0xc854d364bf4e9e10bd90c37bd967e5bcc012e968dcf40b8e045364dd3a7cd53b"
+    },
+    {
+      "Full Name": "Pecherii Oleksandr",
+      "Email": "a.v.pechariy@gmail.com",
+      "AllocationGranted_BUSD": 1500,
+      "amount": "800000000000000000000",
+      "TXID": "https://etherscan.io/tx/0x1d9ec560a55c48cd442b56fabb4ea12fbaa0603bc606a019790a395fdb949913",
+      "address": "0x09aE621cb216DD2b034738D6e52d9eC532eBb239",
+      "status": "FAILED",
+      "total_mht_received": 800000000000000000000,
+      "installments_paid": 1,
+      "92_pct_reimbursement_BUSD": 1380,
+      "reimbursed_at": "21/jan/2022",
+      "reimbursed_tx_hash": "https://bscscan.com/tx/0x94874b5d0e6eb37ac08c5d08b4904155eaa798c6fd51b823c7b8a0adebd9d44d"
+    },
+    {
+      "Description": "DassAuge told us to hold on to these tokens, as this KOL did not fill requirements (but it may change). This guy did NOT receive tokens in february.",
+      "Full Name": "Celio Pacheco Filho",
+      "Email": "Bscmaximalist@gmail.com",
+      "AllocationGranted_BUSD": 1500,
+      "amount": "767000000000000000000",
+      "TXID": "https://bscscan.com/tx/0x70efff6b99f228a971a 38867f2a5a8ed620991347106465a87c6f41b817631e 5",
+      "address": "0x0b13323BedFbf202f547059f0411DA4Bc96E9Ca1"
+    },
+    {
+      "Description": "DassAuge told us to hold on to these tokens, as this KOL did not fill requirements (but it may change). This guy did NOT receive tokens in february.",
+      "Full Name": "Eldir Lindo",
+      "Email": "od_100@protonmail.com",
+      "AllocationGranted_BUSD": 1500,
+      "amount": "767000000000000000000",
+      "TXID": "0x953c84cd92c4f83ba753a77c84f9ee2102a29f7131543610beecf3ae055e30e1",
+      "address": "0x68091B72Fbd74A499c863c4d9DcF5460Aac182F1"
+    },
+    {
+      "Description": "DassAuge told us to hold on to these tokens, as this KOL did not fill requirements (but it may change). This guy did NOT receive tokens in february.",
+      "Full Name": "Mark Melvin",
+      "Email": "marklm725@gmail.com",
+      "AllocationGranted_BUSD": 500,
+      "amount": "255666666666666690000",
+      "TXID": "https://bscscan.com/tx/0xbfe83a83824e9c48467508ba0af0b5f0a185b4b04eda9fece0af1ae263587d68",
+      "address": "0x466C95489b3256Ac499cd736092B63A97e787320"
+    },
+    {
+      "Description": "DassAuge told us to hold on to these tokens, as this KOL did not fill requirements (but it may change). This guy did NOT receive tokens in february.",
+      "Full Name": "Safin Bogdan",
+      "Email": "safinbogdan@gmail.com",
+      "AllocationGranted_BUSD": 1500,
+      "amount": "767000000000000000000",
+      "TXID": "https://bscscan.com/tx/0xc0012645376fd93b52c4578855037bb1f0652e1c0966743d20132c9a1db7ebbc",
+      "address": "0xa734439d26Ce4dBf43ED7eb364Ec409D949bB369"
+    }
+  ]
+}

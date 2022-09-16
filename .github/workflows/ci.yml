@@ -1,0 +1,99 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - "*"
+
+jobs:
+  lint:
+    name: Run eslint and prettier
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.MOUSEHAUNT_BOT_SSH_KEY }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: yarn cache clean
+      - run: yarn install --network-concurrency 1
+      - run: yarn lint
+      - run: yarn prettier
+  solhint:
+    name: Run solhint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.MOUSEHAUNT_BOT_SSH_KEY }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: yarn cache clean
+      - run: yarn install --network-concurrency 1
+      - run: yarn solhint
+  compile:
+    name: Compile smart contracts
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.MOUSEHAUNT_BOT_SSH_KEY }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: yarn cache clean
+      - run: yarn install --network-concurrency 1
+      - run: yarn compile
+  coverage:
+    name: Test coverage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.MOUSEHAUNT_BOT_SSH_KEY }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: yarn cache clean
+      - run: yarn install --network-concurrency 1
+      - run: yarn compile
+      - run: yarn coverage
+  readme:
+    name: Update README with test reports
+    needs: [lint, solhint, compile, coverage]
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: webfactory/ssh-agent@v0.4.1
+        with:
+          ssh-private-key: ${{ secrets.MOUSEHAUNT_BOT_SSH_KEY }}
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+      - run: yarn cache clean
+      - run: yarn install --network-concurrency 1
+      - run: yarn coverage | ./scripts/coverage.sh > .README.md
+      - name: Update README with coverage report
+        run: cat .README.md && mv .README.md README.md
+      - name: Commit updated README
+        run: |
+          git config --local user.email "bot@mousehaunt.com"
+          git config --local user.name "Mouse Haunt Bot"
+          cat README.md
+          git add README.md
+          git commit -m "Update test coverage" || true
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}

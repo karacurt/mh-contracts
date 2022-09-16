@@ -1,0 +1,58 @@
+[
+  {
+    "Full Name": "Fairuz Abd",
+    "Email": "fairuzmolo@gmail.com",
+    "AllocationGranted_BUSD": 1500,
+    "amount": "767000000000000000000",
+    "TXID": "https://bscscan.com/tx/0x4b1763eef80d92df30d5dde16f70036fa0fb4ae906a8713c61d3155cbf4795d7",
+    "address": "0x7C0fef6c18e8494FFE2669eF691c4E5e8877717F"
+  },
+  {
+    "Full Name": "Alexander Traychun",
+    "Email": "cryptorichstat@gmail.com",
+    "AllocationGranted_BUSD": 1000,
+    "amount": "511333333333333370000",
+    "TXID": "https://bscscan.com/tx/0x71472b0c509208d8eb62d33e5e710ae14df1cea9e08f9f9cbcd06830d402c87e",
+    "address": "0xBd63144C19379a62699F9544836CFdF05a3c31ED"
+  },
+  {
+    "Full Name": "Aleksei Ivanov",
+    "Email": "cryptonacia@gmail.com",
+    "AllocationGranted_BUSD": 1500,
+    "amount": "767000000000000000000",
+    "TXID": "https://bscscan.com/tx/0x05b6a3bcb7b0c23993f5e4731aa35cdb3fac50cca15743c4e6eaf5d0b1547420",
+    "address": "0xf1c4350E951E2Ee99AFF319B6c974F529D89140A"
+  },
+  {
+    "Full Name": "Artem kozitsyn",
+    "Email": "Artem.kozitsyn@gmail.com",
+    "AllocationGranted_BUSD": 1000,
+    "amount": "511333333333333370000",
+    "TXID": "https://bscscan.com/tx/0xdffaabace4a65e8b5a434d3f0b21f3f1aa51fc09c805292a7dc088e88a2e822c",
+    "address": "0x23813458252830c9D7F15aD96FC837f388533bfA"
+  },
+  {
+    "Full Name": "Abimbola Christiana Odedeyi",
+    "Email": "bimbok2@gmail.com",
+    "AllocationGranted_BUSD": 1000,
+    "amount": "511333333333333370000",
+    "TXID": "https://bscscan.com/tx/0x284f4360450409f18fd4ce986fc38733ecc32fe43726dbee440441a2cbc43158",
+    "address": "0xae83297759aab210eb2fa3c7cf42a77d0bd2b07e"
+  },
+  {
+    "Full Name": "Lekan Samuel Olonade",
+    "Email": "olonadelekan@gmail.com",
+    "AllocationGranted_BUSD": 750,
+    "amount": "383500000000000000000",
+    "TXID": "https://bscscan.com/tx/0x456d42019e04af210aade457a48f8c1729ff9b6784e10b907312a38afd4760c9",
+    "address": "0xDfeE1f026C9646454C47E263e6B3517CEf5c488D"
+  },
+  {
+    "Full Name": "Sanket Baheti",
+    "Email": "Sam.infinity.gem@gmail.com",
+    "AllocationGranted_BUSD": 500,
+    "amount": "255666666666666690000",
+    "TXID": "https://bscscan.com/tx/0xd38c6e0b35910441ebc756d179547f480cc1f0422704a90a86bf0adc72490da6",
+    "address": "0x1c02B2003bEabFf7B4254A6Da82eB45B5FC7bCBF"
+  }
+]

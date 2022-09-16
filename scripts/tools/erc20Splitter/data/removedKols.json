@@ -1,0 +1,22 @@
+[
+  {
+    "When-removed": "2022-05-23",
+    "Received may": "no",
+    "Full Name": "Graeme McDowell",
+    "Email": "cryptobohdi@gmail.com",
+    "AllocationGranted_BUSD": 500,
+    "amount": "255666666666666690000",
+    "TXID": "https://bscscan.com/tx/0x920dcd77bcf154358e1aa3bde5aa4fe34d6353539f34d1d8e35879b2254a7e10",
+    "address": "0xF29F3d9Beb10EaB29FEC3d90cE6EF0fd2abCa836"
+  },
+  {
+    "When-removed": "2022-05-23",
+    "Received may": "no",
+    "Full Name": "Amr Abdalaziz",
+    "Email": "blued3mise@gmail.com",
+    "AllocationGranted_BUSD": 1500,
+    "amount": "767000000000000000000",
+    "TXID": "https://bscscan.com/tx/0xacff3032e70dd61afe6 38362128087c13a7e1334392e644dad07e250ce12649 5",
+    "address": "0x44F64ed22B3eEe41CcdC8dF4697d3DA3632eE454"
+  }
+]

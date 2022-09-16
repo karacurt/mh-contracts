@@ -1,0 +1,255 @@
+// eslint-disable-next-line node/no-missing-import
+import PreSales from "./presale";
+
+const bscTestnet = {
+  name: "BSC Testnet",
+  chainId: 97,
+  MHGBL: {
+    address: "0x0",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+  },
+  GhostVillain: {
+    address: "0x0",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+  },
+  MhtOnRamp: {
+    address: "",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+  },
+  Swap: {
+    address: "0x77c6bb1Ce823754d11be814bcD0A530Ebe3a4EFb",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    treasury: "0xC68910228CdDBe7936c753387a0d4627f2Ab2180",
+  },
+  MouseHauntStashing: {
+    address: "",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    logic: "",
+  },
+  OnRamp: {
+    address: "",
+  },
+  MouseHauntToken: {
+    address: "0xd13978E6A8b94a0857d8187017b28f43C018BD2a",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    image: "https://mousehaunt.com/images/logo.png",
+    symbol: "MHT",
+    decimals: 18,
+  },
+  MouseHauntAlphaToken: {
+    address: "0x43D20819C5208034a444884C955bCc660f27513C",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+  },
+  Farm: {
+    address: "0x005140f3C06a24677B244Cb5e49F3d7cb356419A",
+    logicAddress: "0x9090177c04d24dcAF361BaE712Bf271C9b4C0A6b",
+    operator: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    validators: ["0xfc854524613dA7244417908d199857754189633c"],
+    tokenName: "MouseHauntToken",
+  },
+  AlphaFarm: {
+    address: "0x5a7D627108c982a317ed160CE58F8f34795692c3",
+    logicAddress: "0x9090177c04d24dcAF361BaE712Bf271C9b4C0A6b",
+    operator: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    validators: ["0xfc854524613dA7244417908d199857754189633c"],
+    tokenName: "MouseHauntAlphaToken",
+  },
+  BUSD: {
+    address: "0x2D7904AaAC1A450C4981ad80FB4fF3F3382bD7f5",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    decimals: 18,
+  },
+  Marketplace: {
+    address: "0xc8C8532E85CEDfdac24BA8dD69A3290aa88d7dD7",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    proxyAdmin: "0xB885C1f5e2EB2C4e7731728B91E30d2cD45dFFc9",
+  },
+  MarketplaceV3: {
+    address: "",
+    logicAddress: "",
+    owner: "",
+  },
+  WhitelistSale: {
+    igoTimestamp: "1639843200",
+    PreSales,
+    PrivateSale1: {
+      address: "0x693348553511106405a0544f98765b0332daF507",
+      owner: "0x087B58029f7251E7054153Bc8775e14A68490286",
+      MHTtoBUSD: "0.0015",
+      minMhtAmount: "50",
+      maxMhtAmount: "400",
+      unlockAtIGOPercent: "8",
+      cliffMonths: "0",
+      vestingPeriodMonths: "12",
+      available: "4000000",
+    },
+    PrivateSale2: {
+      address: "0x644e548960437F2d2c1C1C0dE9e9c7f559f67c27",
+      owner: "0x087B58029f7251E7054153Bc8775e14A68490286",
+      MHTtoBUSD: "0.00175",
+      minMhtAmount: "57",
+      maxMhtAmount: "114",
+      unlockAtIGOPercent: "8",
+      cliffMonths: "0",
+      vestingPeriodMonths: "12",
+      available: "571500",
+    },
+    PrivateSale3: {
+      address: "0x28236cFB512398b676cc2149b169B5f2f0D5bC91",
+      owner: "0x087B58029f7251E7054153Bc8775e14A68490286",
+      MHTtoBUSD: "0.0019",
+      minMhtAmount: "115",
+      maxMhtAmount: "115",
+      unlockAtIGOPercent: "8",
+      cliffMonths: "0",
+      vestingPeriodMonths: "12",
+      available: "575000",
+    },
+  },
+  BMHTL: {
+    address: "0x4b7C86D56461fA4E09381890F5129F7cC790E7c5",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    image: "https://mousehaunt.com/images/legendary.png",
+    symbol: "BMHTL",
+    decimals: 18,
+  },
+  BMHTE: {
+    address: "0x43Ba5C1348DAf61D288545Cd2bBAcE6e7db44156",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    image: "https://mousehaunt.com/images/epic.png",
+    symbol: "BMHTE",
+    decimals: 18,
+  },
+  BMHTR: {
+    address: "0xc2B747674c4ead42246CA6296c9fb563A39AD234",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    image: "https://mousehaunt.com/images/rare.png",
+    symbol: "BMHTR",
+    decimals: 0,
+  },
+  BMHTG: {
+    address: "0x25ac6de9ED3a6B3D22D8A9b485eFcb86051CB6dE",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    image: "https://mousehaunt.com/images/genesis.png",
+    symbol: "BMHTG",
+    decimals: 0,
+  },
+  BMHTH: {
+    address: "0x6a38F5E20AbCfCb34f6bF5237173AA7D774383a4",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    image: "https://mousehaunt.com/images/heroic.png",
+    symbol: "BMHTH",
+    decimals: 0,
+  },
+  BMHTH_nft: {
+    address: "0xf21F4de7D405DE0aCB9B307C22837b20e08a99B1",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    image: "https://mousehaunt.com/images/heroic.png",
+    symbol: "BMHTH",
+    decimals: 0,
+    isERC721: true,
+  },
+  MouseHero: {
+    address: "0xaAC9F965c7D32922D08CbfC0eC76ca31f670C24A",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    symbol: "MHH",
+    decimals: 0,
+    isERC721: true,
+  },
+  Collectible: {
+    address: "0x12b1126e8CdF0dDDAcf8E53C49fD701CB9931472",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    symbol: "MHC",
+    decimals: 0,
+    isERC721: true,
+  },
+  ERC20Mock: {
+    address: "0x2D7904AaAC1A450C4981ad80FB4fF3F3382bD7f5",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    decimals: 18,
+    description: "To be used as BUSD or any other ERC20 token",
+  },
+  BoosterSale: {
+    PrivateSale1: {
+      address: "0x6Bb9c33F26Ba1CFbdaA1192484682469776019D8",
+      owner: "0x087B58029f7251E7054153Bc8775e14A68490286",
+      BMHTL: {
+        busdPrice: "0.025",
+        cap: "2",
+        available: "2000",
+      },
+      BMHTE: {
+        busdPrice: "0.075",
+        cap: "6",
+        available: "6000",
+      },
+    },
+    PrivateSale2: {
+      address: "0xDF27461F27cea9FB6085f8A6574474dBB61a5603",
+      owner: "0x087B58029f7251E7054153Bc8775e14A68490286",
+      BMHTL: {
+        busdPrice: "0.005",
+        cap: "1",
+        available: "500",
+      },
+      BMHTE: {
+        busdPrice: "0.0015",
+        cap: "1",
+        available: "5000",
+      },
+    },
+    PrivateSale3: {
+      address: "0x279Ee6C9EBa5C5DD23eaA482860969CcFa27EB68",
+      owner: "0x087B58029f7251E7054153Bc8775e14A68490286",
+      BMHTE: {
+        busdPrice: "0.0150",
+        cap: "1",
+        available: "3333",
+      },
+      BMHTR: {
+        busdPrice: "0.0045",
+        cap: "2",
+        available: "10000",
+      },
+    },
+    Genesis: {
+      address: "0x4a8F601bf65a46b5F119F648D68932dCB6a43778",
+      owner: "0x087B58029f7251E7054153Bc8775e14A68490286",
+      mhtPrice: "0.003",
+      cap: "10",
+      available: "30000",
+    },
+    Heroic: {
+      address: "0x4E79Af540b752c41b0efCe1bfE4fa196A3fFaD82",
+      owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+      mhtPrice: "30",
+      cap: "10",
+      available: "10000",
+    },
+  },
+  Splitter: {
+    address: "0xE2feC97a896aeE2aB4E74701E9E7276B9e1f0191",
+    owner: "0x9808Bceec8ECF87854f102a9B0B51F08c540E691",
+  },
+  NftBatchTransfer: {
+    address: "0x2FbCE5D83a3cBF98A01B83c1B1fe815186A0c724",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+  },
+  PlayerStash: {
+    address: "0x46Da988c2e9C693f7A3638B849eA32A9b976eaf7",
+    logicAddress: "0x59a8f27c4a1780d6ad6522e96f160d1302c2f68a",
+    owner: "0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1",
+    validators: ["0x15B5728C2A7ce5f9281c51822F09F5e50e8561C1"],
+  },
+  services: {
+    holders: {
+      provider: "covalenthq",
+      type: "holders",
+      baseUrl: "https://api.covalenthq.com/v1/",
+      params: ":chainId/tokens/:contractAddress/token_holders/?key=:apiKey&page-size=999999",
+      apiKey: "ckey_3e2bebb71b564e71bdaa5d87dca",
+    },
+  },
+};
+
+export default bscTestnet;
